@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
                 GeneroSeeder::class,
                 AtorSeeder::class,
                 DiretorSeeder::class,
+                UserSeeder::class,
         ]);
     }
 }
