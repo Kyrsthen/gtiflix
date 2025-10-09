@@ -15,7 +15,7 @@ class AtorSeeder extends Seeder
     {
         DB::table('atores')->insert(
             ['name' => "Xiao Zhan", 'descricao' => "Ator chinês que fez papel de Wei Yin em the untamed", 'nacionalidade_id'=> 1], //1-> chines
-            ['name' => "Selton Mello", 'descricao' => "Ator chinês que fez papel de Lan Zhan em the untamed", 'nacionalidade_id'=> 1],
+            ['name' => "Selton Mello", 'descricao' => "Ator chinês que fez papel de Lan Zhan em the untamed", 'nacionalidade_id'=> 2],
         );
     }
 }

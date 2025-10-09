@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
+use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
 
 class DiretorSeeder extends Seeder
 {
@@ -13,12 +13,6 @@ class DiretorSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('diretores')->insert([
-            ['nome' => ''],
-            ['nome' => ''],
-            ['nome' => ''],
-            ['nome' => ''],
-            ['nome' => ''],
-        ]);
+      //DB::table(" ")->insert([
     }
 }

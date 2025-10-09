@@ -3,7 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\User;
+
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -25,6 +27,7 @@ class DatabaseSeeder extends Seeder
                 AtorSeeder::class,
                 DiretorSeeder::class,
                 UserSeeder::class,
+                NacionalidadeSeeder::class,
         ]);
     }
 }

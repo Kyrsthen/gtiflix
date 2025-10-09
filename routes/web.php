@@ -2,6 +2,9 @@
 
 use App\Models\Ator;
 use App\Models\Genero;
+use App\Models\Diretor;
+use App\Models\Nacionalidade;
+use App\Models\Filme;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -32,3 +35,13 @@ Route::get('/diretores', function () {
     $minhaVariavel = Diretor::all(); //select from generos
     dd($minhaVariavel); //exibe informações na tela
 });
+
+route::get('/nacionalidades', function() {
+    $nacionalidade = Nacionalidade::all();
+    dd($nacionalidade);
+ });
+
+ route::get('/filmes', function() {
+    $filme = Filme::all();
+    dd($filme);
+ });
