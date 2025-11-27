@@ -20,6 +20,16 @@ class ProdutorasSeeder extends Seeder
                 ['nome' => "TNT Movies"],
                 ['nome' => "Movie Plus"],
                 ['nome' => "Max"],
+                ['nome' => "Zazen Produções"],
+                ['nome' => "Paramount Pictures"],
+                ['nome' => "Universal Pictures"],
+                ['nome' => "20th Century Studios"],
+                ['nome' => "Columbia Pictures"],
+                ['nome' => "Lionsgate"],
+                ['nome' => "MGM Studios"],
+                ['nome' => "Syncopy films"],
+                ['nome' => "Legendary Entertainment"],
+                ['nome' => "Blumhouse Productions"],
             ]
         );
     }

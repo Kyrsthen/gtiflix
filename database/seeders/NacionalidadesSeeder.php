@@ -22,6 +22,33 @@ class NacionalidadesSeeder extends Seeder
                 [
                     'nome' => "Americano(a)",
                 ],
+                [
+                    'nome' => "Australiano(a)",
+                ],
+                [
+                    'nome' => "Britânico(a)",
+               ],
+                [
+                    'nome' => "Canadense",
+                ],
+                [
+                    'nome' => "Francês(a)",
+                ],
+                [
+                    'nome' => "Alemão(a)",
+                ],
+                [
+                    'nome' => "Italiano(a)",
+                ],
+                [
+                    'nome' => "Japonês(a)",
+                ],
+                [
+                    'nome' => "Indiano(a)",
+                ],
+                [
+                    'nome' => "Chinês(a)",
+                ],
             ]
         );
     }

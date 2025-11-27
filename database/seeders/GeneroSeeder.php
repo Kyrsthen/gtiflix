@@ -20,6 +20,23 @@ class GeneroSeeder extends Seeder
                 ['nome' => "Comédia"],
                 ['nome' => "Romance"],
                 ['nome' => "Suspense"],
+                ['nome' => "Ficção Científica"],
+                ['nome' => "Documentário"],
+                ['nome' => "Animação"],
+                ['nome' => "Drama"],
+                ['nome' => "Fantasia"],
+                ['nome' => "Aventura"],
+                ['nome' => "Musical"],
+                ['nome' => "Histórico"],
+                ['nome' => "Guerra"],
+                ['nome' => "Policial"],
+                ['nome' => "Biografia"],
+                ['nome' => "Infantil"],
+                ['nome' => "Esporte"],
+                ['nome' => "Crime"],
+                ['nome' => "Thriller"],
+                ['nome' => "Mistério"],
+                ['nome' => "Sobrenatural"],
             ]
         );
     }
